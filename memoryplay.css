@@ -1,0 +1,126 @@
+body{
+    background-color:white; 
+    background-image: url("https://www.royalcaribbeanblog.com/sites/default/files/fb/Zoom_Background%2012%20-%20Beach%20Sunset.jpg"); 
+    background-repeat: no-repeat;  
+    background-size: 1366px 1000px;
+}
+
+h1{
+    color: #b6dbb1; 
+    font-size:2em;
+    text-align:center;
+    background-color:#282727;
+    margin:auto;
+    margin-bottom:40px;
+    width:80%;
+    max-width:300px;
+    border-radius:10px;
+    border:2px dashed #409AA7;
+    padding:10px 2px;
+    text-align: center;
+    color: crimson;
+}
+
+#start:hover{
+    background-color: lightblue; 
+    color: black ;
+    cursor: pointer; 
+}
+#about:hover{
+    background-color: lightblue; 
+    color: black ;
+    cursor: pointer; 
+}
+p{
+color: brown;
+    font-size :1.3em ;
+     font-style: bold;
+}
+
+#game_section p span{
+color: brown;
+}
+#score_section{
+    margin-top:30px;
+    text-align:left;
+    width:70%;
+    font-size:1em;
+    color: brown;
+    margin-right: 5%;
+    margin-left: 7%;
+}
+
+#score_section #high_score_p{
+    float:right;
+    color: brown;
+}
+#start{
+    padding: 10px 20px; 
+    background-color: black; 
+    font-weight: 700; 
+    font-size:1.5em;
+    color :lightblue;
+    border: none; 
+    margin: 40px; 
+    transition: 0.5s; 
+    box-shadow: 0 8px 5px -5px #116370;
+    border-radius:3px;
+    float: center;
+}
+
+
+    
+#game_box{
+    width:30%;
+    margin:auto;
+    background-color:lightblue;
+    margin-top:30px;
+    border-radius:5%;
+    text-align:center;
+    padding:1% 1%;
+    box-shadow:inset 0 0 10px #000000;
+    overflow:hidden;
+    position :relative;
+}
+#level_select {
+    display:block;
+    text-align:center;
+    margin:auto;
+    font-size:1em;
+    background-color:white;
+    border:none;
+    color:black;
+    border-radius:5px;
+    padding:5px;
+    font-weight:500;
+    cursor:pointer;
+}
+
+#about{
+    padding: 10px 20px; 
+    background-color: black; 
+    font-weight: 700; 
+    font-size:1.5em;
+    color :lightblue;
+    border: none; 
+    margin: 40px; 
+    transition: 0.5s; 
+    box-shadow: 0 8px 5px -5px #116370;
+    border-radius:3px;
+    float: center;
+}
+.card{
+    width:20%;
+    
+    background-color:lightblue;
+    padding-top:18%;
+    display:inline-block;
+    border-radius:10%;
+    box-shadow:inset 0 0 5px #000000;
+    background-image: url("https://illustoon.com/photo/1947.png"); 
+    background-size:100% 100%; 
+    transition:0.2s;
+}
+.clear{
+    clear:both;
+}
